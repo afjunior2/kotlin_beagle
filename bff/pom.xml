@@ -30,7 +30,11 @@
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>br.com.zup.beagle</groupId>
+			<artifactId>beagle-spring-starter</artifactId>
+			<version>${beagle.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
